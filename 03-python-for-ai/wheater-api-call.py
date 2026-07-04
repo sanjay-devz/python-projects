@@ -1,3 +1,5 @@
+
+import pandas as pd
 import requests
 
 # We need coordinates to get weather data
