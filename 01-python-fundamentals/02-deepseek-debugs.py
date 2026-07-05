@@ -5,11 +5,15 @@
 # print("Temperature in C:" celsius)
 
 #debugged code
+try:
+    fahrenheit = int(input("Enter temp in F:"))
+    celsius = (fahrenheit -32) * 5/9
+    print("Temperatur in C:", celsius)
 
-fahrenheit = int(input("Enter temp in F:"))
-celsius = (fahrenheit -32) * 5/9
-print("Temperatur in C:", celsius)
+except ValueError:
+    print("Invalid Input")
 
+help ValueError
 
 #output 
 # #the error code 
