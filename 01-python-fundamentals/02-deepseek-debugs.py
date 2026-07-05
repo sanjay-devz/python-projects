@@ -6,14 +6,14 @@
 
 #debugged code
 try:
-    fahrenheit = int(input("Enter temp in F:"))
+    fahrenheit = float(input("Enter temp in F:"))
     celsius = (fahrenheit -32) * 5/9
-    print("Temperatur in C:", celsius)
+    print("Temperatur in C:", round(celsius,2))
 
 except ValueError:
     print("Invalid Input")
 
-help ValueError
+
 
 #output 
 # #the error code 
