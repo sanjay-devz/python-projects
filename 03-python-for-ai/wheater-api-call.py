@@ -1,5 +1,4 @@
 
-import pandas as pd
 import requests
 
 # We need coordinates to get weather data
@@ -12,5 +11,5 @@ url = f"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={lo
 # Make the request
 response = requests.get(url)
 data = response.json()
-
+ 
 print(data)
