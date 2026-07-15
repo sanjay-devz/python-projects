@@ -21,7 +21,7 @@ while True:
                 converted_temp = (temperature - 32) * 5/9
                 print(f"{temperature}°F = {converted_temp:.2f}°C")
             elif current_unit == "F" and convert_unit == "K":
-                converted_temp = (temperature - 32) * 5/9 + 273.15
+                converted_temp = (temperature - 32) * 5/9 + 273.15               
                 print(f"{temperature}°F = {converted_temp:.2f}°K")
             elif current_unit == "K" and convert_unit == "C":
                 converted_temp = temperature - 273.15
@@ -35,5 +35,7 @@ while True:
             print("Invalid choice")
     except ValueError:
         print("Invalid temperature. Please enter a number.")
+
+
 
 

@@ -26,7 +26,7 @@ finally:
     if converted_temp is not None:
         print("")
         print("-" * 38)
-        print(f"  The Converted Temperature:{converted_temp}°{temperature_unit}")
+        print(f"  The Converted Temperature:{converted_temp:.2f}°{temperature_unit}")
         print("-" * 38)
         print("")
 
