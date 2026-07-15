@@ -8,3 +8,5 @@ C = is_leepyear(1999)
 print(A)
 print(B)
 print(C)
+
+#simple leep year finding program
