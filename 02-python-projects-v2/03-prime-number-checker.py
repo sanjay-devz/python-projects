@@ -9,17 +9,14 @@ try:
     elif number >=1:
         for i in range(2,int(number**0.5)+1):
             if number % i == 0:
-                
-
                 prime = False
+                break
 
-
-            
     else:
         print("error")
 
     if prime == True:
-        print(f"The {number} is a prime number")
+        print(f"{number} is a prime number")
 
     elif prime == False:
         print(f"{number} is not a prime number")                            
