@@ -20,7 +20,7 @@ while True:
     
         task_list.append(new_task)
 
-        ask_user = int(input("Enter [Y/N] ->"))
+        ask_user = input("Enter [Y/N] ->").upper()
 
     elif choice == 2:
         for x in task_list:
